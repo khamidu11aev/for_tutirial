@@ -1,0 +1,24 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.header-links ul {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  cursor: pointer;
+  gap: 24px;
+}

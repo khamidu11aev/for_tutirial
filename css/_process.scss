@@ -1,0 +1,66 @@
+.process {
+    margin-top: 150px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: var(--text);
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: var(--text);
+        margin-top: 16px;
+    }
+    &-cards {
+        display: flex;
+        gap: 191px;
+    }
+
+    .card-left {
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                gap: 41px;
+                margin-bottom: 24px;
+
+                img {
+                    width: 98px;
+                    height: 98px;
+                }
+
+                span {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #2F281E;
+                    background: #FFFFFF;
+                    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+                    border-radius: 26.5px;
+                    padding: 15px 24px 14px 25px;
+                }
+            }
+        }
+    }
+
+    &-btn {
+        margin-top: 48px;
+        text-align: center;
+        padding-right: 150px;
+        a {
+            padding: 15px 30px;
+            color: var(--btn-text);
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            background: var(--btn);
+            border-radius: 4px;
+        }
+    }
+}
